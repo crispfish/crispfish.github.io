@@ -1,0 +1,82 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Andrew Lee
+    - name: Languages
+      value: English, German
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: University of Texas at Austin
+      year: 2017
+      description:
+        - Thesis advisor: Tim Perutz.
+        - title: Mapping Tori and Stable Pairs
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: BA
+      institution: Williams College, Williamstown, MA
+      year: 2010
+      description:
+        - BA, Mathematics with Honors (Thesis:  Non-orientable Heegaard splittings.)
+        - BA, Spanish
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Assistant Professor
+      institution: St. Thomas Aquinas College, Sparkill NY
+      year: 2019 - Present
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Postdoctoral Scholar
+      institution: University of California, Santa Cruz, Santa Cruz, CA
+      year: 1933
+      description:
+        - Description 1.
+        - Description 2.
+
+    - title: Americorps Volunteer
+      institution: Notre Dame Mission Volunteers, St. Anthony's/Immaculate Conception School, San Francisco, CA
+      year: 2010-2011
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2016
+      items: 
+        - Departmental Award for Excellent in Teaching 
+        - University of Texas at Austin
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items: 
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
