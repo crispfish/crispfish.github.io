@@ -1,11 +1,11 @@
 ---
 layout: page
-title: current projects
-permalink: /projects/
+title: student projects
+permalink: /student_projects/
 description: 
 nav: false
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [2023, 2022]
 horizontal: false
 ---
 
@@ -15,7 +15,7 @@ horizontal: false
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
+  {%- assign categorized_projects = site.student_projects | where: "category", category -%}
   {%- assign filtered_categorized_projects = categorized_projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" -%}
   <!-- Generate cards for each project -->
@@ -38,7 +38,7 @@ horizontal: false
 
 {%- else -%}
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
+  {%- assign sorted_projects = site.student_projects | sort: "importance" -%}
   {%- assign filtered_sorted_projects = sorted_projects | where: "category", "work" -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}

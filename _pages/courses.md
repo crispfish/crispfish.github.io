@@ -1,11 +1,11 @@
 ---
 layout: page
 title: current projects
-permalink: /projects/
+permalink: /courses/
 description: 
 nav: false
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [developed, taught]
 horizontal: false
 ---
 
@@ -15,7 +15,7 @@ horizontal: false
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
+  {%- assign categorized_projects = site.courses | where: "category", category -%}
   {%- assign filtered_categorized_projects = categorized_projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" -%}
   <!-- Generate cards for each project -->
