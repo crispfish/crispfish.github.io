@@ -1,13 +1,16 @@
 ---
 layout: page
-title: research
+title: outreach/service
 nav: true
-nav_order: 2
+nav_order: 3
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: RHIME
+      permalink: 'https://RHIME-math.github.io/'
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: Metro NExT
+      permalink: 'https://metronext.github.io/'
+    - title: divider
+    - title: Previous Outreach
+      permalink: /previous_outreach/
 ---

@@ -1,13 +1,13 @@
 ---
 layout: page
-title: research
+title: teaching
 nav: true
 nav_order: 2
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: courses
+      permalink: /courses/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: student projects
+      permalink: /student_projects/
 ---
