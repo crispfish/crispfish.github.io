@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Assistant Professor at <a href='stac.edu'>St. Thomas Aquinas College</a>
 
 profile:
   align: right
@@ -15,12 +15,10 @@ profile:
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to [stac.edu](the STAC website). I should also see `prof_pic.jpg` from the `img/` folder.
+Hi! This is the academic website for Andrew Lee, assistant professor at St. Thomas Aquinas College. Previously, I was a postdoctoral scholar at the University of California, Santa Cruz under the supervision of <a href='https://www.dancristofarogardiner.com/'> Dan Cristofaro-Gardiner</a>. Before that I was a graduate student at the University of Texas at Austin, advised by <a href='https://web.ma.utexas.edu/users/perutz/'> Tim Perutz</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-#Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<!--Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.-->
