@@ -8,10 +8,6 @@ nav: false
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
-<<<<<<< HEAD
-=======
-
->>>>>>> redo
 <div class="publications">
 
 {%- for y in page.years %}
