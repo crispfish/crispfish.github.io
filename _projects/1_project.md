@@ -1,8 +1,8 @@
 ---
 layout: page
 title: equivariant tensors and machine learning
-description: with N. Marshall, D. Packer, and J. Tonelli-Cueto
-img: /assets/img/illustris-cropped.png
+description: with W. Gregory, N. Marshall, J. Tonelli-Cueto, and S. Villar
+img: /assets/img/mnistnoise.png
 importance: 1
 category: work
 ---
@@ -17,5 +17,5 @@ Among the proposed directions in the project was an extension of previous result
     </div>
 </div>
 <div class="caption">
-    The data used to generate this image comes from the <a href="https://www.tng-project.org/" >IllustrisTNG project</a> which uses high-performance computing and modern physics to simulate galaxy formation. Brighter regions have particles moving at higher velocities.
+	The thumbnail image consists of MNIST digits corrupted by different types of noise. Our SparseVectorHunter method utilizing equivariant tensor functions recovers the original image better than existing methods.
 </div>

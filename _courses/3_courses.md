@@ -1,12 +1,12 @@
 ---
 layout: page
-title: statistical analysis for social policy
-description: a quantitative reasoning course for social science majors
-img: assets/img/NYcurrentdistricts.png
+title: discrete mathematics
+description: a discrete structures and computational thinking course
+img: assets/img/discrete.png
 importance: 3
-category: developed
+category: taught
 ---
 
-Statistical Analysis for Social Policy is a quantitative reasoning course (co-developed with Carolyn Fraker, assistant professor of sociology) intended for students majoring in social science disciplines.
+A standard course in discrete mathematics: truth tables, propositional calculus, elementary number theory, matrix algebra, probability, computational complexity, graph theory...
 
-Semesters taught: Fall 2022, Spring 2024
+Semesters taught: Fall 2024

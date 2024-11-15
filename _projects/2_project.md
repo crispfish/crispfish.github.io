@@ -1,7 +1,7 @@
 ---
 layout: page
 title: manifold learning and dimensionality reduction
-description: with H. Lee, N. Schonscheck, and M. Weinstein
+description: with H. Lee, J. Perea, N. Schonscheck, and M. Weinstein
 img: assets/img/stiefelcloud.png
 importance: 3
 category: work
