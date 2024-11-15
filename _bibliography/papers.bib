@@ -6,18 +6,19 @@
 @book{thesis,
   bibtex_show={true},
   title={Mappping Tori and Stable Pairs},
-  author={Lee, Andrew},
+  author={Andrew Lee},
   year={2017},
   abstract={This thesis builds on previous work using symplectic geometry and gauge theory in the service of low-dimensional topology. By constructing a representation of an extension of the mapping class group of a closed Riemann surface $\Sigma$  into the symplectic mapping class groups of moduli spaces of rank 2 stable pairs over $\Sigma$, we define an invariant from the fixed-point Floer homology of the induced symplectomorphism. The calculation of the Floer homology in genus 1 is incorrect as written. However, the construction of the Floer homology invariant itself and the quantum cohomology computations for the blowup of projective space along a genus 1 curve are of independent interest.},
   publisher={ProQuest LLC},
-  preview={NSWdiagram.png}
+  preview={NSWdiagram.png},
+  video={http://scgp.stonybrook.edu/video_portal/video.php?id=4344}
 }
 
 @article{largeellipsoidembeddings,
   abbr={RF1},
   title={The Rigid-Flexible Value for Embeddings of Ellipsoids into Polydiscs},
-  author={Jin, A. and Lee, A.},
-  journal={J. Fixed Point Theory Appl. (Accepted)},
+  author={A. Jin and A. Lee},
+  journal={J. Fixed Point Theory Appl. <b>25</b>, 79 (2023).},
   year={2023},
   html={https://arxiv.org/abs/1811.03756},
   dimensions={true},
@@ -28,9 +29,35 @@
 @article{squareellipsoidembeddings,
   abbr={RF2},
   title={The Rigid-Flexible Value for Embeddings of Ellipsoids into Almost-Square Polydiscs},
-  author={Colbert, C. and Lee, A.},
+  author={C. Colbert and A. Lee},
   abstract={We investigate the rigid-flexible value for polydiscs with aspect ratio $1<b<2$, and find an infinite sequence of obstructive classes giving rise to an ``infinite staircase" as $b\to 1$.},
-  journal={In preparation.},
+  journal={Submitted.},
+  html={https://arxiv.org/abs/2402.16223},
   preview={cbafilm.gif},
-  year={2023}
+  code={https://github.com/crispfish/symplectic-embeddings-cubes},
+  year={2024}
+}
+
+@article{equivarianttensor,
+  abbr={EQT},
+  title={Learning equivariant tensor functions with applications to sparse vector recovery},
+  author={W. Gregory, J. Tonelli-Cueto, N. Marshall, A. Lee, S. Villar},
+  abstract={This work characterizes equivariant polynomial functions from tuples of tensor inputs to tensor outputs. Loosely motivated by physics, we focus on equivariant functions with respect to the diagonal action of the orthogonal group on tensors. We show how to extend this characterization to other linear algebraic groups, including the Lorentz and symplectic groups. Our goal behind these characterizations is to define equivariant machine learning models. In particular, we focus on the sparse vector estimation problem. This problem has been broadly studied in the theoretical computer science literature, and explicit spectral methods, derived by techniques from sum-of-squares, can be shown to recover sparse vectors under certain assumptions. Our numerical results show that the proposed equivariant machine learning models can learn spectral methods that outperform the best theoretically known spectral methods in some regimes. The experiments also suggest that learned spectral methods can solve the problem in settings that have not yet been theoretically analyzed. This is an example of a promising direction in which theory can inform machine learning models and machine learning models could inform theory.},
+  journal={Submitted.},
+  html={https://arxiv.org/abs/2406.01552},
+  preview={mnistnoise.png},
+  year=2024,
+  code={https://github.com/WilsonGregory/TensorPolynomials}
+}
+
+@article{okequivariantstiefel,
+  abbr={OKS},
+  title={$O(k)$-equivariant dimensionality reduction on Stiefel manifolds},
+  author={A. Lee, H. Lee, J. Perea, N. Schonsheck, M. Weinstein},
+  abstract={Many real-world datasets live on high-dimensional Stiefel and Grassmannian manifolds, $V_k(\mathbb{R}^N)$ and $Gr(k, \mathbb{R}^N)$ respectively, and benefit from projection onto lower-dimensional Stiefel \add{and Grassmannian} manifolds. In this work, we propose an algorithm called \textit{Principal Stiefel Coordinates (PSC)} to reduce data dimensionality from $ V_k(\mathbb{R}^N)$ to $V_k(\mathbb{R}^n)$ in an \textit{$O(k)$-equivariant} manner ($k \leq n \ll N$). We begin by observing that each element $\alpha \in V_n(\mathbb{R}^N)$ defines an isometric embedding of $V_k(\RR^n)$ into $V_k(\RR^N)$. Next, we describe two ways of finding a suitable embedding map $\alpha$: one via an extension of principal component analysis ($\alpha_{PCA}$), and one that further minimizes data fit error using gradient descent ($\alpha_{GD}$). Then, we define a continuous and $O(k)$-equivariant map $\pi_\alpha$ that acts as a ``closest point operator'' to project the data onto the image of $V_k(\RR^n)$ in $V_k(\mathbb{R}^N)$ under the embedding determined by $\alpha$, while minimizing distortion. Because this dimensionality reduction is $O(k)$-equivariant, these results extend to Grassmannian manifolds as well. Lastly, we show that  $\pi_{\alpha_{PCA}}$ globally minimizes projection error in a noiseless setting, while $\pi_{\alpha_{GD}}$ achieves a meaningfully different and improved outcome when the data does not lie exactly on the image of a linearly embedded lower-dimensional Stiefel manifold as above. Multiple numerical experiments using synthetic and real-world data are performed. },
+  journal={Accepted, SIAM J. Math. Data Sci.},
+  html={https://arxiv.org/abs/2309.10775},
+  preview={stiefelcloud.png},
+  year={2024},
+  code={https://github.com/HarlinLee/stiefel-dimensionality-reduction}
 }

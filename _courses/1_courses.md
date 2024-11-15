@@ -13,15 +13,4 @@ Since fall 2020 I have taught this course with standards-based grading, with 21 
 
 Semesters taught: Fall 2022, Fall 2021, Spring 2021, Fall 2020, Spring 2020, Fall 2019
 
-<a href=""> Image credit: nicoguaro, via Wikimedia Commons.</a>
-
-<!--
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Pi_30k.gif" title="Monte Carlo simulation to calculate pi" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-  A Monte Carlo simulation for estimating the value of pi. (Image credit nicoguaro, <a href='https://creativecommons.org/licenses/by/3.0'> CC BY 3.0 </a> via Wikimedia Commons.
-</div>
--->
+<a href=""> Image credit: A Monte Carlo simulation for estimating the value of pi, nicoguaro, via Wikimedia Commons.</a>

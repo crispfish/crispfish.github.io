@@ -1,6 +1,6 @@
 ---
 layout: page
-title: current projects
+title: courses taught
 permalink: /courses/
 description: 
 nav: false
